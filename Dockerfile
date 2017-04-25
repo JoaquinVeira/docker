@@ -5,3 +5,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt /var/cache/apt /var/lib/dpkg
 EXPOSE 80
 ENTRYPOINT [ "/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]
+
